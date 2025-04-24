@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Carter Whidden">
+    <meta name="description" content="Carter Whidden">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Carter.css">
+    <link rel="icon" type="images/icon"    href="images/icon.png">
+    <title>Carter Whidden</title>
+   
+</head>
+
+<body>
+     <header>
+       <img src="images/icon.png" alt="logo">
+        <span>Carter Whidden</span>
+    </header>
+   
+    <!-- start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">About Me</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li> 
+            <li class="active"><a href="gfapplication.html">Girlfriend Application</a></li>
+            <li><a href="contact.html">Contact/Socials</a></li>
+            <li><a href="jersey.html">Jersey Sales</a></li>
+        </ul>
+    </nav>
+    <main>
+<h1>Girlfriend Application</h1>
+<form method="get" class="myform" action="thanks.html">
+  <fieldset>
+    <legend>Customer Information</legend>
+    <label>Name*<input type="text" name="name" required></label>
+   <label>Age*<input type="text" name="age" required></label>
+   <label>Place of Origin*<input type="text" name="origin" required ></label>
+   </fieldset>
+   
+   <fieldset>
+    <legend>What would you MOST like to do on our first date?</legend>
+<label><input type="radio" name="method" value="minigolf">Mini Golfing</label>
+<label> <input type="radio" name="method" value="sunsetpicnic">Sunset Picnic</label>
+<label> <input type="radio" name="method" value="driveinmovie">Drive-in Movie</label>
+</fieldset>
+
+<fieldset>
+<legend>Hobbies? Check all that apply to you.</legend>
+<label><input type="checkbox" name="Sports" value="chosen">Sports</label>
+<label><input type="checkbox" name="Video Games" value="chosen">Video Games</label>
+<label><input type="checkbox" name="Outdoors" value="chosen">Outdoors</label>
+<label><input type="checkbox" name="Reading" value="chosen">Reading</label>
+<label><input type="checkbox" name="Shopping" value="chosen">Shopping</label>
+<label><input type="checkbox" name="Movies" value="chosen">Movies</label>
+<label><input type="checkbox" name="Partying" value="chosen">Partying</label>
+<label><input type="checkbox" name="Cars" value="chosen">Cars</label>
+<label><input type="checkbox" name="Cooking/Baking" value="chosen">Cooking/Baking</label>
+<label><input type="checkbox" name="Art" value="chosen">Art</label>
+<label><input type="checkbox" name="Dancing" value="chosen">Dancing</label>
+<label><input type="checkbox" name="Photography" value="chosen">Photography</label>
+<label><input type="checkbox" name="Politics" value="chosen">Politics</label>
+
+
+<textarea name="Expand" id="Expand" placeholder="Other or Expand. Ex. What sports specifically?"></textarea>
+</fieldset>
+<fieldset><label>What is a conspiracy theory you believe in?
+    <textarea name="theory"  placeholder="Ex. Aliens built the pyramids"></textarea>
+</label></fieldset>
+<fieldset><label>Who is your celebrity lookalike?
+    <textarea name="looks" placeholder="Ex. Megan Fox"></textarea>
+</label></fieldset>
+<fieldset>
+    <label>If you had to live another life as an ancient civilization which on would you choose?
+        <select name="life">
+        <option value="none">Please Select</option>
+        <option value="morning">Cowboy in Wild West</option>
+        <option value="noon">Knight in Medieval Ages</option>
+        <option value="afternoon">Pirate in Exploration Period</option>
+        <option value="evening">Samurai in Ancient Japan</option>
+        </select>
+    </label>
+
+</fieldset>
+
+<fieldset>
+    <H1>How can I get back to you?</H1>
+    <label>Phone Number<input type="tel" name="phone" placeholder="987-555-1234"></label>
+    <label>Email<input type="email" name="email"></label>
+</fieldset>
+
+
+    <input type="submit" value="Send Application">
+</form>
+    </main>
